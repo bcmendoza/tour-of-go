@@ -1,4 +1,4 @@
-package basics
+package lesson1
 
 // In this function example, add takes two params of type int
 // Notice the type comes after the variable names

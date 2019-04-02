@@ -1,4 +1,4 @@
-package basics
+package lesson3
 
 // A struct is a collection of fields.
 type Vertex struct {

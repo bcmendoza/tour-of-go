@@ -1,4 +1,4 @@
-package basics
+package lesson3
 
 // The type [n]T is an array of n values of type T.
 // An array's length is fixed as part of its type

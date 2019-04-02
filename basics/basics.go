@@ -1,46 +1,53 @@
 package basics
 
-import "fmt"
+import (
+	"fmt"
 
-// Packages, Variables, Functions
+	"./lesson1"
+	"./lesson2"
+	"./lesson3"
+)
+
+// Lesson1 - Packages, Variables, Functions
 func Lesson1() {
-	// fmt.Println(Packages())
-	// fmt.Println(Add(42, 13))
-	// fmt.Println(Swap("hello", "world"))
-	// fmt.Println(Split(17))
-	// fmt.Println(Variables())
-	// fmt.Println(Initializers())
-	// fmt.Println(ShortDeclarations())
-	// fmt.Println(Types())
-	// fmt.Println(Conversions())
-	// fmt.Println(Constants())
-	// fmt.Println(NumericConstants())
+	fmt.Println(lesson1.Packages())
+	fmt.Println(lesson1.Add(42, 13))
+	fmt.Println(lesson1.Swap("hello", "world"))
+	fmt.Println(lesson1.Split(17))
+	fmt.Println(lesson1.Variables())
+	fmt.Println(lesson1.Initializers())
+	fmt.Println(lesson1.ShortDeclarations())
+	fmt.Println(lesson1.Types())
+	fmt.Println(lesson1.Conversions())
+	fmt.Println(lesson1.Constants())
+	fmt.Println(lesson1.NumericConstants())
 }
 
-// Flow Control Statements
+// Lesson2 - Flow Control Statements
 func Lesson2() {
-	// fmt.Println(ForLoop())
-	// fmt.Println(WhileFor())
-	// fmt.Println(Sqrt(-4))
-	// fmt.Println(Pow(3, 3, 26))
-	// fmt.Println(Switch())
-	// fmt.Println(When())
-	// fmt.Println(SwitchTrue())
-	// Defer()
-	// Stack()
+	fmt.Println(lesson2.ForLoop())
+	fmt.Println(lesson2.WhileFor())
+	fmt.Println(lesson2.Sqrt(-4))
+	fmt.Println(lesson2.Pow(3, 3, 26))
+	fmt.Println(lesson2.Switch())
+	fmt.Println(lesson2.When())
+	fmt.Println(lesson2.SwitchTrue())
+	lesson2.Defer()
+	lesson2.Stack()
 }
 
-// Pointers and More Types
+// Lesson3 - Pointers and More Types
 func Lesson3() {
-	fmt.Println(UsePointer())
-	fmt.Println(Struct())
-	fmt.Println(StructPointer())
-	fmt.Println(StructLiteral())
-	fmt.Println(Array())
-	fmt.Println(Slice())
-	fmt.Println(SliceLiteral())
+	fmt.Println(lesson3.UsePointer())
+	fmt.Println(lesson3.Struct())
+	fmt.Println(lesson3.StructPointer())
+	fmt.Println(lesson3.StructLiteral())
+	fmt.Println(lesson3.Array())
+	fmt.Println(lesson3.Slice())
+	fmt.Println(lesson3.SliceLiteral())
 }
 
+// Exercises -
 func Exercises() {
 	// fmt.Println(NewtonSqrt1(128))
 	// fmt.Println(NewtonSqrt2(128))

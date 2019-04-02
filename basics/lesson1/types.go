@@ -1,3 +1,5 @@
+package lesson1
+
 /*
 Go's basic types are:
 - bool
@@ -14,8 +16,6 @@ The int, uint, and uintptr types are usually
 When you need an integer value you should use int unless you have a
 specific reason to use a sized or unsigned integer type.
 */
-
-package basics
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package basics
+package lesson1
 
 // var declares a list of variables
 // As in function argument lists, the type is last

@@ -1,4 +1,4 @@
-package basics
+package lesson2
 
 // Go only has one looping construct: `for`
 // Uses basic structure (init, condition, post), but without parens

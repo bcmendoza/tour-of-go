@@ -1,4 +1,4 @@
-package basics
+package lesson1
 
 // Constants are declared like variables, but with `const`
 // They cannot be declared using the := syntax

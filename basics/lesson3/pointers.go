@@ -1,4 +1,4 @@
-package basics
+package lesson3
 
 var integer = 10
 
