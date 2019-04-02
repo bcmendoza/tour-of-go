@@ -1,5 +1,6 @@
 package lesson2
 
+// ForLoop -
 // Go only has one looping construct: `for`
 // Uses basic structure (init, condition, post), but without parens
 // The init statement will often be short var declaration
@@ -11,6 +12,7 @@ func ForLoop() int {
 	return sum
 }
 
+// WhileFor -
 // The init and post statements are optional
 // Which converts it into a while loop (still using `for`)
 func WhileFor() int {

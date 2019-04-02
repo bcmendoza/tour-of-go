@@ -2,8 +2,9 @@ package lesson1
 
 // Constants are declared like variables, but with `const`
 // They cannot be declared using the := syntax
-const Pi = 3.14
+const pi = 3.14
 
+// Constants -
 func Constants() string {
 	const World = "世界"
 	return World
@@ -24,6 +25,7 @@ func needFloat(x float64) float64 {
 	return x * 0.1
 }
 
+// NumericConstants -
 func NumericConstants() (int, float64, float64) {
 	return needInt(Small), needFloat(Small), needFloat(Big)
 }

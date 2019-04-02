@@ -2,6 +2,7 @@ package lesson3
 
 var integer = 10
 
+// GeneratePointer -
 // A pointer holds the memory address of a value.
 // The & operator generates a pointer to its value.
 // This function returns the type *int, which is
@@ -11,6 +12,7 @@ func GeneratePointer() *int {
 	return pointer
 }
 
+// UsePointer -
 // The * operator denotes the pointer's underlying value.
 // The pointer can be reassigned (i.e. `*pointer = 20`).
 // And it can also be read (i.e. `*pointer`)

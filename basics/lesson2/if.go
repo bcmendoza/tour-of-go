@@ -5,6 +5,7 @@ import (
 	"math"
 )
 
+// Sqrt -
 // Go's `if` statements are like its for loops;
 // the expression need not be surrounded by parentheses
 // but the braces are required
@@ -15,6 +16,7 @@ func Sqrt(x float64) float64 {
 	return math.Sqrt(x)
 }
 
+// Pow -
 // The `if` can be prefaced by a short statement to execute
 // Variables declared by the statement are only scoped within the `if`
 func Pow(x, n, limit float64) float64 {

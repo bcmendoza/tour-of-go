@@ -10,7 +10,7 @@ import (
 	"strconv"
 )
 
-// Packages ...
+// Packages -
 // A name is exported if it begins with a capital letter.
 // When importing a package, you can only refer to its exported names.
 func Packages() string {

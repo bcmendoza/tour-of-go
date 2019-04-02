@@ -8,6 +8,7 @@ package lesson1
 // "" for strings
 var i int
 
+// Variables -
 func Variables() (int, bool, string) {
 	var no bool
 	var empty string
@@ -18,11 +19,13 @@ func Variables() (int, bool, string) {
 // When initializing, type is inferred from the initializer
 var j = 20
 
+// Initializers -
 func Initializers() (j int, no, yes bool) {
 	no, yes = false, true
 	return // 0 false true
 }
 
+// ShortDeclarations -
 // Inside a function, the := short assignment statement
 // can be used in place of a var declaration with implicit type.
 // Outside a function, every statement begins with a keyword

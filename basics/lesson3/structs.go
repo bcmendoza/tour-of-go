@@ -1,5 +1,6 @@
 package lesson3
 
+// Vertex -
 // A struct is a collection of fields.
 type Vertex struct {
 	X, Y int
@@ -12,6 +13,7 @@ func Struct() Vertex {
 	return v // {4, 2}
 }
 
+// StructPointer -
 // Struct fields can also be accessed via struct pointer.
 // Instead of using (*p).X, Go lets us omit the dereference operator.
 // The special prefix `&` returns a pointer to the struct.
@@ -22,6 +24,7 @@ func StructPointer() Vertex {
 	return *p // {1000000000, 2}
 }
 
+// StructLiteral -
 // A struct literal denotes a newly allocated struct value
 // by explicitly listing the values of its fields.
 // You can list just a subset of fields by name (instead of order).

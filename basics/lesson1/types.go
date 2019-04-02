@@ -32,6 +32,7 @@ var (
 	z      complex128 = cmplx.Sqrt(-5 + 12i)
 )
 
+// Types -
 func Types() (string, string, string) {
 	b := fmt.Sprintf("%T %v\n", toBe, toBe)
 	u := fmt.Sprintf("%T %v\n", maxInt, maxInt)
@@ -39,6 +40,7 @@ func Types() (string, string, string) {
 	return b, u, c
 }
 
+// Conversions -
 // The expression T(v) converts the value v to the type T.
 // Assignment between items of different type requires explicit conversion
 func Conversions() (int, int, uint) {

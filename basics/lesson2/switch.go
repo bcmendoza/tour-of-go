@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+// Switch -
 // Go's switch only runs the selected case,
 // not all the cases that follow.
 // The break statement is implied.
@@ -25,13 +26,13 @@ func Switch() string {
 	return desc + result
 }
 
-/* Switch cases evaluate cases from top to bottom,
-stopping when a case succeeds. For example:
-switch i {
-case 0:
-case f(): // f is not called if i == 0
-}
-*/
+// When -
+// Switch cases evaluate cases from top to bottom,
+// stopping when a case succeeds. For example:
+// switch i {
+// case 0:
+// case f(): // f is not called if i == 0
+// }
 func When() string {
 	fmt.Println("When's Saturday?")
 	today := time.Now().Weekday()
@@ -47,6 +48,7 @@ func When() string {
 	}
 }
 
+// SwitchTrue -
 // Switch without a condition is the same as `switch true`
 // This can be a clean way of writing long if-then-else chains
 func SwitchTrue() string {
