@@ -34,6 +34,7 @@ func Lesson2() {
 	fmt.Println(lesson2.SwitchTrue())
 	lesson2.Defer()
 	lesson2.Stack()
+	lesson2.PanicRecover()
 }
 
 // Lesson3 - Pointers and More Types
@@ -45,6 +46,9 @@ func Lesson3() {
 	fmt.Println(lesson3.Array())
 	fmt.Println(lesson3.Slice())
 	fmt.Println(lesson3.SliceLiteral())
+	fmt.Println(lesson3.SliceAttrs())
+	fmt.Println(lesson3.MakeSlice())
+	fmt.Println(lesson3.AppendToSlice())
 }
 
 // Exercises -
